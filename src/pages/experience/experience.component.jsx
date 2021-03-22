@@ -28,7 +28,7 @@ const Experience = () => {
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                    <li className="text-center" style={{listStyle:'none'}}>Worked as <strong>QA &amp;Trainer</strong> for Google's critical escalation team</li>
+                    <li className="text-center" style={{listStyle:'none'}}>Worked as <strong>QA &amp;Trainer</strong> for Google's critical escalation team, </li>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
 
                     </ul>

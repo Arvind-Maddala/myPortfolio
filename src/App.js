@@ -3,6 +3,7 @@ import React from "react";
 import MyNavbar from './components/my-navbar/mynavbar.component';
 import MyCarousal from './components/my-carousal/my-carousal.component';
 import TitleMessage from './components/title-message/title-message.component';
+import TimeLine from "./components/projects-timeline/projects-timeline.component";
 import About from './pages/about/about.component';
 import Skills from "./pages/skills/skills.component";
 import Experience from "./pages/experience/experience.component";
@@ -49,6 +50,12 @@ const App = () => {
             <Experience />
           </Fade>
         </Container>
+        <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
+        </Slide>
+      </Container>
     </div>
   );
 }
